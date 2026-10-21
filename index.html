@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form Example</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+
+        <!-- 1. Textbox -->
+        <label>Name:</label>
+        <input type="text" name="name" placeholder="Enter your name">
+        <br><br>
+
+        <!-- 2. Password -->
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="Enter password">
+        <br><br>
+
+        <!-- 3. Email -->
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter email">
+        <br><br>
+
+        <!-- 4. Number -->
+        <label>Age:</label>
+        <input type="number" name="age" min="1" max="100">
+        <br><br>
+
+        <!-- 5. Telephone -->
+        <label>Phone:</label>
+        <input type="tel" name="phone" placeholder="Enter phone number">
+        <br><br>
+
+        <!-- 6. Date -->
+        <label>Date of Birth:</label>
+        <input type="date" name="dob">
+        <br><br>
+
+        <!-- 7. Time -->
+        <label>Time:</label>
+        <input type="time" name="time">
+        <br><br>
+
+        <!-- 8. Radio Button -->
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+
+        <!-- 9. Checkbox -->
+        <label>Skills:</label>
+        <input type="checkbox" name="skills" value="html"> HTML
+        <input type="checkbox" name="skills" value="css"> CSS
+        <input type="checkbox" name="skills" value="js"> JavaScript
+        <br><br>
+
+        <!-- 10. File Upload -->
+        <label>Upload Photo:</label>
+        <input type="file" name="photo">
+        <br><br>
+
+        <!-- 11. Color -->
+        <label>Favourite Color:</label>
+        <input type="color" name="color">
+        <br><br>
+
+        <!-- 12. Range -->
+        <label>Skill Level:</label>
+        <input type="range" name="level" min="0" max="100">
+        <br><br>
+
+        <!-- 13. URL -->
+        <label>Website:</label>
+        <input type="url" name="website" placeholder="Enter website URL">
+        <br><br>
+
+        <!-- 14. Search -->
+        <label>Search:</label>
+        <input type="search" name="search" placeholder="Search here">
+        <br><br>
+
+        <!-- 15. Select Dropdown -->
+        <label>Department:</label>
+        <select name="department">
+            <option value="it">Information Technology</option>
+            <option value="cse">Computer Science</option>
+            <option value="ece">Electronics</option>
+        </select>
+        <br><br>
+
+        <!-- 16. Textarea -->
+        <label>Address:</label>
+        <textarea name="address" rows="4" cols="30"
+                  placeholder="Enter your address"></textarea>
+        <br><br>
+
+        <!-- 17. Submit -->
+        <input type="submit" value="Register">
+
+        <!-- 18. Reset -->
+        <input type="reset" value="Clear">
+
+        <!-- 19. Normal Button -->
+        <input type="button" value="Click Me"
+               onclick="alert('Hello Student!')">
+
+    </form>
+
+</body>
+</html>
